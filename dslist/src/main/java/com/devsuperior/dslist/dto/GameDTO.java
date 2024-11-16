@@ -22,7 +22,7 @@ public class GameDTO {
     private String longDescription;
 
     public GameDTO(Game entity){
-        //Copia os dados da entidade, importante ter os mesmos nbome de atributos
+        //Copia os dados da entidade, importante ter os mesmos nbome de atributo
         BeanUtils.copyProperties(entity, this);
     }
 }
